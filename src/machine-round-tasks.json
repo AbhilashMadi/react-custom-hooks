@@ -1,0 +1,845 @@
+[
+  {
+    "path": "/components/traffic-light-simulation",
+    "tags": [
+      "animation",
+      "state",
+      "timers"
+    ],
+    "difficulty": "medium",
+    "title": "Traffic Light Simulation",
+    "description": "Create a component that simulates a traffic light with automatic transitions between red, yellow, and green states.",
+    "estimatedTime": "30-45 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/search-autocomplete",
+    "tags": [
+      "input",
+      "api",
+      "throttle",
+      "ux"
+    ],
+    "difficulty": "medium",
+    "title": "Search Input with Autocomplete",
+    "description": "Build a search input that fetches suggestions from an API using throttling or debouncing and displays them in a dropdown.",
+    "estimatedTime": "30 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/accordion",
+    "tags": [
+      "accordion",
+      "ui",
+      "composition"
+    ],
+    "difficulty": "easy",
+    "title": "Build an Accordion",
+    "description": "Implement an accordion component that supports multiple items, toggle behavior, and optional single-open mode.",
+    "estimatedTime": "15-25 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/infinite-scroll-cached",
+    "tags": [
+      "scroll",
+      "pagination",
+      "cache",
+      "performance"
+    ],
+    "difficulty": "hard",
+    "title": "Infinite Scrolling List with Caching",
+    "description": "Create an infinite scrolling list that fetches items in pages, displays loading indicators, and caches loaded data.",
+    "estimatedTime": "45-60 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/todo-crud-localstorage",
+    "tags": [
+      "todo",
+      "crud",
+      "localStorage"
+    ],
+    "difficulty": "easy",
+    "title": "To-Do List with Local Storage",
+    "description": "Build a to-do list with add, delete, update, toggle complete, and persist the list using localStorage.",
+    "estimatedTime": "30-40 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/modal-portal-focus",
+    "tags": [
+      "modal",
+      "portal",
+      "accessibility"
+    ],
+    "difficulty": "medium",
+    "title": "Accessible Modal with React Portal",
+    "description": "Create a modal using React Portal that supports escape key closing, focus trap, and outside click detection.",
+    "estimatedTime": "30-40 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/file-upload-preview",
+    "tags": [
+      "file",
+      "image",
+      "preview",
+      "input"
+    ],
+    "difficulty": "medium",
+    "title": "Image Upload with Preview",
+    "description": "Build a file upload input that accepts images, validates type and size, and previews them before upload.",
+    "estimatedTime": "25-35 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/custom-select-dropdown",
+    "tags": [
+      "dropdown",
+      "select",
+      "keyboard"
+    ],
+    "difficulty": "medium",
+    "title": "Custom Select Dropdown",
+    "description": "Build a custom select component with dropdown options, keyboard navigation, and outside click to close.",
+    "estimatedTime": "35-45 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/drag-drop-reorder-list",
+    "tags": [
+      "drag-drop",
+      "list",
+      "reorder"
+    ],
+    "difficulty": "hard",
+    "title": "Draggable Reorderable List",
+    "description": "Implement a list that supports drag-and-drop to reorder items, without using external libraries.",
+    "estimatedTime": "45-60 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/stepper-form",
+    "tags": [
+      "form",
+      "multi-step",
+      "validation"
+    ],
+    "difficulty": "medium",
+    "title": "Multi-Step Form (Stepper)",
+    "description": "Create a multi-step form wizard with validation at each step and a final review before submission.",
+    "estimatedTime": "40-50 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/digital-clock",
+    "tags": [
+      "time",
+      "interval",
+      "display"
+    ],
+    "difficulty": "easy",
+    "title": "Digital Clock",
+    "description": "Build a digital clock that displays the current time and updates every second.",
+    "estimatedTime": "15-20 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/debounce-input",
+    "tags": [
+      "debounce",
+      "input",
+      "performance"
+    ],
+    "difficulty": "easy",
+    "title": "Debounced Input Field",
+    "description": "Create an input field that delays API calls using debounce on user typing.",
+    "estimatedTime": "20-25 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/tabs-component",
+    "tags": [
+      "tabs",
+      "state",
+      "component"
+    ],
+    "difficulty": "easy",
+    "title": "Tabs Component",
+    "description": "Create a reusable tabs component that switches between different content panels.",
+    "estimatedTime": "20-30 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/stopwatch",
+    "tags": [
+      "timers",
+      "controls",
+      "performance"
+    ],
+    "difficulty": "medium",
+    "title": "Stopwatch",
+    "description": "Build a stopwatch with start, stop, reset, and lap recording functionality.",
+    "estimatedTime": "30-40 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/scroll-to-top-button",
+    "tags": [
+      "scroll",
+      "button",
+      "UX"
+    ],
+    "difficulty": "easy",
+    "title": "Scroll to Top Button",
+    "description": "Create a button that appears after scrolling a certain distance and scrolls the user to the top when clicked.",
+    "estimatedTime": "15-20 min",
+    "priority": "medium",
+    "isCommonInInterviews": false
+  },
+  {
+    "path": "/components/resizable-panel",
+    "tags": [
+      "resizable",
+      "drag",
+      "layout"
+    ],
+    "difficulty": "medium",
+    "title": "Resizable Split Panel",
+    "description": "Build a layout with two panels where the divider can be dragged to resize the panels.",
+    "estimatedTime": "40-50 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/progress-bar",
+    "tags": [
+      "progress",
+      "animation",
+      "styles"
+    ],
+    "difficulty": "easy",
+    "title": "Progress Bar",
+    "description": "Implement a progress bar that animates and shows progress based on a numeric value.",
+    "estimatedTime": "20-25 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/notification-toast-system",
+    "tags": [
+      "notifications",
+      "context",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Toast Notification System",
+    "description": "Create a global toast system that can show success, error, and info messages with auto-dismiss and manual close.",
+    "estimatedTime": "35-45 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/password-strength-meter",
+    "tags": [
+      "form",
+      "password",
+      "regex"
+    ],
+    "difficulty": "easy",
+    "title": "Password Strength Meter",
+    "description": "Create a password input that displays a visual strength meter based on complexity.",
+    "estimatedTime": "25-30 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/theme-toggler",
+    "tags": [
+      "dark-mode",
+      "context",
+      "theme"
+    ],
+    "difficulty": "easy",
+    "title": "Dark/Light Mode Toggle",
+    "description": "Implement a button to toggle between dark and light themes with state persisted in localStorage.",
+    "estimatedTime": "20-25 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/dynamic-form-generator",
+    "tags": [
+      "form",
+      "dynamic",
+      "schema"
+    ],
+    "difficulty": "hard",
+    "title": "Dynamic Form Generator",
+    "description": "Build a form that takes a JSON schema and dynamically renders the form fields with validation.",
+    "estimatedTime": "60-75 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/multi-step-form",
+    "tags": [
+      "form",
+      "wizard",
+      "validation"
+    ],
+    "difficulty": "medium",
+    "title": "Multi-Step Form",
+    "description": "Implement a multi-step form with Next and Back buttons, validation at each step, and a final review page.",
+    "estimatedTime": "45-60 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/calendar-datepicker",
+    "tags": [
+      "calendar",
+      "date",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Custom Calendar Date Picker",
+    "description": "Create a calendar component that allows users to pick a date, with optional month navigation and disabled past dates.",
+    "estimatedTime": "45-60 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/search-with-highlight",
+    "tags": [
+      "search",
+      "highlight",
+      "filter"
+    ],
+    "difficulty": "easy",
+    "title": "Search with Highlight",
+    "description": "Build a list filter with a search bar that highlights the matching text in the list items.",
+    "estimatedTime": "20-30 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/tree-view-folder-structure",
+    "tags": [
+      "tree",
+      "expand-collapse",
+      "recursion"
+    ],
+    "difficulty": "medium",
+    "title": "Tree View Folder Structure",
+    "description": "Render a nested folder structure with expandable/collapsible nodes using recursion.",
+    "estimatedTime": "45-60 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/drag-drop-list",
+    "tags": [
+      "drag-drop",
+      "UX",
+      "list"
+    ],
+    "difficulty": "medium",
+    "title": "Drag-and-Drop Reorderable List",
+    "description": "Build a list where items can be reordered using drag and drop without third-party libraries.",
+    "estimatedTime": "40-50 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/rating-stars",
+    "tags": [
+      "UX",
+      "feedback",
+      "component"
+    ],
+    "difficulty": "easy",
+    "title": "Star Rating Component",
+    "description": "Create a star-based rating component that allows selection and hover previews.",
+    "estimatedTime": "20-25 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/responsive-navbar",
+    "tags": [
+      "navbar",
+      "responsive",
+      "menu"
+    ],
+    "difficulty": "easy",
+    "title": "Responsive Navbar with Hamburger Menu",
+    "description": "Implement a responsive navigation bar that collapses into a hamburger menu on smaller screens.",
+    "estimatedTime": "25-30 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/file-upload-with-preview",
+    "tags": [
+      "file-upload",
+      "UX",
+      "image-preview"
+    ],
+    "difficulty": "medium",
+    "title": "File Upload with Preview",
+    "description": "Build a file input component that previews selected image or PDF files before uploading.",
+    "estimatedTime": "30-40 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/keyboard-shortcuts",
+    "tags": [
+      "keyboard",
+      "shortcuts",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Keyboard Shortcut Handler",
+    "description": "Implement a feature that listens for specific keyboard shortcuts and triggers actions.",
+    "estimatedTime": "25-35 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/audio-player",
+    "tags": [
+      "audio",
+      "media",
+      "controls"
+    ],
+    "difficulty": "medium",
+    "title": "Custom Audio Player",
+    "description": "Build an audio player with play, pause, volume control, and seek functionality using the HTMLAudioElement API.",
+    "estimatedTime": "40-50 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/live-character-counter",
+    "tags": [
+      "text",
+      "form",
+      "UX"
+    ],
+    "difficulty": "easy",
+    "title": "Live Character Counter",
+    "description": "Create a textarea component that displays the number of characters typed and a maximum limit.",
+    "estimatedTime": "15-20 min",
+    "priority": "low",
+    "isCommonInInterviews": false
+  },
+  {
+    "path": "/components/debounced-live-search",
+    "tags": [
+      "search",
+      "debounce",
+      "API"
+    ],
+    "difficulty": "medium",
+    "title": "Debounced Live Search",
+    "description": "Implement an input that queries a mock API with debounce logic to avoid sending requests on every keystroke.",
+    "estimatedTime": "30-45 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/otp-input",
+    "tags": [
+      "form",
+      "input",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "OTP Input Fields",
+    "description": "Build a set of 6 input boxes for OTP entry with auto-focus, backspace, and paste support.",
+    "estimatedTime": "40-50 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/chat-ui",
+    "tags": [
+      "chat",
+      "real-time",
+      "UX"
+    ],
+    "difficulty": "hard",
+    "title": "Basic Chat UI",
+    "description": "Create a chat interface with a message input box, user messages, and auto-scroll to latest message.",
+    "estimatedTime": "45-60 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/notification-toast",
+    "tags": [
+      "notifications",
+      "UX",
+      "animation"
+    ],
+    "difficulty": "medium",
+    "title": "Toast Notification System",
+    "description": "Implement a toast system that shows temporary messages at the top or bottom corner and auto-dismisses after a timeout.",
+    "estimatedTime": "30-40 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/virtualized-list",
+    "tags": [
+      "performance",
+      "list",
+      "scroll"
+    ],
+    "difficulty": "hard",
+    "title": "Virtualized List Rendering",
+    "description": "Build a long list with virtualization to render only visible items based on scroll position without using external libraries.",
+    "estimatedTime": "60-75 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/editable-table",
+    "tags": [
+      "table",
+      "editable",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Editable Table Rows",
+    "description": "Create a table where each row can be edited inline and changes saved locally or via mock API.",
+    "estimatedTime": "40-50 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/tab-navigation",
+    "tags": [
+      "tabs",
+      "navigation",
+      "state"
+    ],
+    "difficulty": "easy",
+    "title": "Tab Navigation Component",
+    "description": "Create a tabbed interface where each tab shows different content, and highlight the active tab.",
+    "estimatedTime": "20-25 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/copy-to-clipboard",
+    "tags": [
+      "clipboard",
+      "UX",
+      "buttons"
+    ],
+    "difficulty": "easy",
+    "title": "Copy to Clipboard Utility",
+    "description": "Implement a button that copies a string to the clipboard and shows a success message on copy.",
+    "estimatedTime": "15-20 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/drag-to-reorder-list",
+    "tags": [
+      "drag-and-drop",
+      "list",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Draggable Reorderable List",
+    "description": "Implement a list where items can be reordered using drag-and-drop without third-party libraries.",
+    "estimatedTime": "45-60 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/carousel",
+    "tags": [
+      "slider",
+      "images",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Image Carousel",
+    "description": "Build an image carousel with next/prev buttons and indicators, with auto-slide support.",
+    "estimatedTime": "40-50 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/countdown-timer",
+    "tags": [
+      "timer",
+      "animation",
+      "UX"
+    ],
+    "difficulty": "easy",
+    "title": "Countdown Timer",
+    "description": "Create a countdown timer that starts from a given time and updates every second until it reaches zero.",
+    "estimatedTime": "20-30 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/resizable-panels",
+    "tags": [
+      "resize",
+      "layout",
+      "UX"
+    ],
+    "difficulty": "hard",
+    "title": "Resizable Split Panel",
+    "description": "Create two panels that can be resized horizontally by dragging a handle in between.",
+    "estimatedTime": "60-75 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/stepper-form",
+    "tags": [
+      "form",
+      "wizard",
+      "state"
+    ],
+    "difficulty": "medium",
+    "title": "Stepper Form Wizard",
+    "description": "Build a multi-step form with Next/Previous navigation and form validation on each step.",
+    "estimatedTime": "40-50 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/breadcrumb-navigation",
+    "tags": [
+      "navigation",
+      "UX",
+      "routing"
+    ],
+    "difficulty": "easy",
+    "title": "Breadcrumb Navigation",
+    "description": "Build a breadcrumb component that reflects the current route hierarchy with clickable links.",
+    "estimatedTime": "20-25 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/collapsible-sidebar",
+    "tags": [
+      "layout",
+      "sidebar",
+      "toggle"
+    ],
+    "difficulty": "medium",
+    "title": "Collapsible Sidebar Layout",
+    "description": "Create a sidebar that can collapse/expand with animation, preserving state across page refresh.",
+    "estimatedTime": "30-45 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/json-viewer",
+    "tags": [
+      "json",
+      "display",
+      "UI"
+    ],
+    "difficulty": "medium",
+    "title": "JSON Viewer Component",
+    "description": "Render a JSON object in a collapsible tree-like view that supports nested structures.",
+    "estimatedTime": "50-60 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/theme-toggle",
+    "tags": [
+      "theme",
+      "dark-mode",
+      "UX"
+    ],
+    "difficulty": "easy",
+    "title": "Light/Dark Theme Toggle",
+    "description": "Implement a theme toggle switch that switches between light and dark modes using CSS variables or context.",
+    "estimatedTime": "15-25 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/responsive-navbar",
+    "tags": [
+      "navigation",
+      "responsive",
+      "menu"
+    ],
+    "difficulty": "medium",
+    "title": "Responsive Navigation Bar",
+    "description": "Build a navigation bar that shows a hamburger menu on smaller screens with slide-out animation.",
+    "estimatedTime": "30-40 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/image-lazy-loader",
+    "tags": [
+      "performance",
+      "lazy-loading",
+      "images"
+    ],
+    "difficulty": "medium",
+    "title": "Lazy Load Images",
+    "description": "Build an image component that lazy-loads when it enters the viewport using IntersectionObserver.",
+    "estimatedTime": "30-40 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/fullscreen-gallery",
+    "tags": [
+      "gallery",
+      "fullscreen",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Fullscreen Image Gallery",
+    "description": "Create a fullscreen image viewer with navigation arrows, ESC to close, and thumbnail previews.",
+    "estimatedTime": "45-55 min",
+    "priority": "medium",
+    "isCommonInInterviews": false
+  },
+  {
+    "path": "/components/range-slider",
+    "tags": [
+      "slider",
+      "input",
+      "custom"
+    ],
+    "difficulty": "medium",
+    "title": "Custom Range Slider",
+    "description": "Build a range slider with two thumbs to select a numeric range (min-max).",
+    "estimatedTime": "40-50 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/table-column-sort",
+    "tags": [
+      "table",
+      "sorting",
+      "UX"
+    ],
+    "difficulty": "medium",
+    "title": "Sortable Table Columns",
+    "description": "Build a table where columns can be sorted ascending/descending by clicking on headers.",
+    "estimatedTime": "30-45 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/calendar-datepicker",
+    "tags": [
+      "calendar",
+      "date",
+      "input"
+    ],
+    "difficulty": "hard",
+    "title": "Custom Calendar Date Picker",
+    "description": "Build a calendar component that allows date selection and shows the current month view.",
+    "estimatedTime": "60-75 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/network-status-indicator",
+    "tags": [
+      "network",
+      "connectivity",
+      "UX"
+    ],
+    "difficulty": "easy",
+    "title": "Network Status Indicator",
+    "description": "Display a banner or icon when the app goes offline or comes back online using the navigator API.",
+    "estimatedTime": "15-20 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/scroll-progress-bar",
+    "tags": [
+      "scroll",
+      "UX",
+      "indicator"
+    ],
+    "difficulty": "easy",
+    "title": "Scroll Progress Indicator",
+    "description": "Implement a progress bar at the top of the screen that fills as the user scrolls down the page.",
+    "estimatedTime": "20-30 min",
+    "priority": "medium",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/auto-resizing-textarea",
+    "tags": [
+      "input",
+      "textarea",
+      "UX"
+    ],
+    "difficulty": "easy",
+    "title": "Auto-Resizing Textarea",
+    "description": "Create a textarea that dynamically resizes based on its content without scrollbars.",
+    "estimatedTime": "15-20 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/virtualized-list",
+    "tags": [
+      "performance",
+      "large-data",
+      "scroll"
+    ],
+    "difficulty": "hard",
+    "title": "Virtualized List Component",
+    "description": "Render a large list efficiently by only displaying visible items using windowing technique.",
+    "estimatedTime": "60-90 min",
+    "priority": "high",
+    "isCommonInInterviews": true
+  },
+  {
+    "path": "/components/reaction-picker",
+    "tags": [
+      "UX",
+      "reactions",
+      "emoji"
+    ],
+    "difficulty": "medium",
+    "title": "Emoji Reaction Picker",
+    "description": "Build a floating reaction picker (like Slack) that lets users choose and toggle emoji reactions.",
+    "estimatedTime": "30-40 min",
+    "priority": "medium",
+    "isCommonInInterviews": false
+  }
+]

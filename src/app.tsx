@@ -1,7 +1,8 @@
-import { type FC } from 'react'
+import { type FC } from "react";
+import "@/css/globals.css";
 
 const App: FC = () => {
-  return (<main>Hello</main>)
+  return (<main>APp</main>)
 }
 
 export default App;

@@ -1,0 +1,774 @@
+[
+  {
+    "title": "useState",
+    "tags": [
+      "state",
+      "basic"
+    ],
+    "difficulty": "easy",
+    "description": "Allows you to add state to functional components."
+  },
+  {
+    "title": "useEffect",
+    "tags": [
+      "side-effects",
+      "lifecycle"
+    ],
+    "difficulty": "easy",
+    "description": "Performs side effects in function components, like fetching data or interacting with APIs."
+  },
+  {
+    "title": "useContext",
+    "tags": [
+      "state",
+      "context"
+    ],
+    "difficulty": "easy",
+    "description": "Allows you to access the context value within a functional component."
+  },
+  {
+    "title": "useRef",
+    "tags": [
+      "refs",
+      "dom",
+      "accessibility"
+    ],
+    "difficulty": "easy",
+    "description": "Returns a mutable ref object that persists for the lifetime of the component."
+  },
+  {
+    "title": "useMemo",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "difficulty": "medium",
+    "description": "Memoizes a value to avoid unnecessary recalculations on re-renders."
+  },
+  {
+    "title": "useCallback",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "difficulty": "medium",
+    "description": "Memoizes a callback function to avoid unnecessary re-creations on re-renders."
+  },
+  {
+    "title": "useReducer",
+    "tags": [
+      "state",
+      "redux",
+      "advanced"
+    ],
+    "difficulty": "medium",
+    "description": "An alternative to useState for handling more complex state logic."
+  },
+  {
+    "title": "useLayoutEffect",
+    "tags": [
+      "side-effects",
+      "performance"
+    ],
+    "difficulty": "medium",
+    "description": "Executes after all DOM mutations but before the browser paints, useful for layout calculations."
+  },
+  {
+    "title": "useImperativeHandle",
+    "tags": [
+      "refs",
+      "advanced"
+    ],
+    "difficulty": "medium",
+    "description": "Customizes the instance value that is exposed when using refs."
+  },
+  {
+    "title": "useErrorBoundary",
+    "tags": [
+      "error-handling"
+    ],
+    "difficulty": "medium",
+    "description": "Provides a way to handle JavaScript errors in a component tree."
+  },
+  {
+    "title": "useIdleCallback",
+    "tags": [
+      "performance"
+    ],
+    "difficulty": "medium",
+    "description": "Invokes a callback during browser idle time, useful for non-urgent background tasks."
+  },
+  {
+    "title": "useIntersectionObserver",
+    "tags": [
+      "performance",
+      "visibility",
+      "lazy-loading"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks the visibility of an element within the viewport."
+  },
+  {
+    "title": "useNetwork",
+    "tags": [
+      "network",
+      "connectivity"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks the network status of the user's device."
+  },
+  {
+    "title": "usePrevious",
+    "tags": [
+      "state",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks the previous value of a state or prop."
+  },
+  {
+    "title": "useLocalStorage",
+    "tags": [
+      "storage",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Manages values in localStorage."
+  },
+  {
+    "title": "useSessionStorage",
+    "tags": [
+      "storage",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Manages values in sessionStorage."
+  },
+  {
+    "title": "useClickAway",
+    "tags": [
+      "dom",
+      "events"
+    ],
+    "difficulty": "medium",
+    "description": "Detects clicks outside of a specified element."
+  },
+  {
+    "title": "useOnClickOutside",
+    "tags": [
+      "dom",
+      "events"
+    ],
+    "difficulty": "medium",
+    "description": "Similar to useClickAway, but handles clicks on an outside element."
+  },
+  {
+    "title": "useDarkMode",
+    "tags": [
+      "custom-hooks",
+      "ui"
+    ],
+    "difficulty": "medium",
+    "description": "Manages dark/light mode toggling in the application."
+  },
+  {
+    "title": "useHover",
+    "tags": [
+      "events",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks if an element is being hovered."
+  },
+  {
+    "title": "useLongPress",
+    "tags": [
+      "events",
+      "touch"
+    ],
+    "difficulty": "medium",
+    "description": "Detects a long press event."
+  },
+  {
+    "title": "useDebouncedValue",
+    "tags": [
+      "performance",
+      "input"
+    ],
+    "difficulty": "medium",
+    "description": "Debounces an input value to prevent excessive re-renders."
+  },
+  {
+    "title": "useThrottle",
+    "tags": [
+      "performance",
+      "events"
+    ],
+    "difficulty": "medium",
+    "description": "Throttles a function to limit how often it is invoked."
+  },
+  {
+    "title": "usePolling",
+    "tags": [
+      "custom-hooks",
+      "api"
+    ],
+    "difficulty": "medium",
+    "description": "Sets up polling for a specific API endpoint."
+  },
+  {
+    "title": "useFocus",
+    "tags": [
+      "accessibility",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Focuses an input element when a specific event occurs."
+  },
+  {
+    "title": "useResizeObserver",
+    "tags": [
+      "performance",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Observes changes in the size of an element."
+  },
+  {
+    "title": "useScroll",
+    "tags": [
+      "performance",
+      "events"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks the scroll position of an element."
+  },
+  {
+    "title": "useScript",
+    "tags": [
+      "custom-hooks",
+      "script"
+    ],
+    "difficulty": "medium",
+    "description": "Loads an external script dynamically into your application."
+  },
+  {
+    "title": "useMeasure",
+    "tags": [
+      "custom-hooks",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Measures the dimensions of an element."
+  },
+  {
+    "title": "useGlobalState",
+    "tags": [
+      "state",
+      "global"
+    ],
+    "difficulty": "medium",
+    "description": "Manages a global state across multiple components."
+  },
+  {
+    "title": "useUpdateEffect",
+    "tags": [
+      "side-effects",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Runs a side effect after the component mounts and updates."
+  },
+  {
+    "title": "useEventListener",
+    "tags": [
+      "events",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Attaches an event listener to an element."
+  },
+  {
+    "title": "useWindowSize",
+    "tags": [
+      "custom-hooks",
+      "responsive"
+    ],
+    "difficulty": "easy",
+    "description": "Tracks the window size to adjust the layout accordingly."
+  },
+  {
+    "title": "useFocusWithin",
+    "tags": [
+      "accessibility",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Detects if any child elements of a component have focus."
+  },
+  {
+    "title": "useAnalytics",
+    "tags": [
+      "custom-hooks",
+      "analytics"
+    ],
+    "difficulty": "medium",
+    "description": "Integrates analytics tools into your app."
+  },
+  {
+    "title": "useComponentVisible",
+    "tags": [
+      "visibility",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks whether a component is visible in the viewport."
+  },
+  {
+    "title": "useGeoLocation",
+    "tags": [
+      "custom-hooks",
+      "api",
+      "location"
+    ],
+    "difficulty": "medium",
+    "description": "Fetches the user's geolocation information."
+  },
+  {
+    "title": "useClipboard",
+    "tags": [
+      "clipboard",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Manages clipboard interactions like copying and pasting."
+  },
+  {
+    "title": "useResize",
+    "tags": [
+      "custom-hooks",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Monitors changes in an element's size."
+  },
+  {
+    "title": "useUserIdle",
+    "tags": [
+      "user-input",
+      "idle"
+    ],
+    "difficulty": "medium",
+    "description": "Detects user inactivity and triggers a callback."
+  },
+  {
+    "title": "useLocalStorageState",
+    "tags": [
+      "storage",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Manages state using localStorage with fallback in case it's not available."
+  },
+  {
+    "title": "useSessionState",
+    "tags": [
+      "storage",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Manages sessionStorage state with automatic persistence."
+  },
+  {
+    "title": "useQuery",
+    "tags": [
+      "data-fetching",
+      "api"
+    ],
+    "difficulty": "medium",
+    "description": "Fetches data and stores it in a query state."
+  },
+  {
+    "title": "useLazyQuery",
+    "tags": [
+      "data-fetching",
+      "api"
+    ],
+    "difficulty": "medium",
+    "description": "Fetches data on demand using a lazy-loaded query."
+  },
+  {
+    "title": "useMutation",
+    "tags": [
+      "data-fetching",
+      "api"
+    ],
+    "difficulty": "medium",
+    "description": "Performs a mutation action on a remote resource."
+  },
+  {
+    "title": "useStateWithCallback",
+    "tags": [
+      "state",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "A variant of useState that accepts a callback function for when the state is updated."
+  },
+  {
+    "title": "useScrollPosition",
+    "tags": [
+      "performance",
+      "scroll"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks the scroll position of the page or an element."
+  },
+  {
+    "title": "useTimeout",
+    "tags": [
+      "timing",
+      "events"
+    ],
+    "difficulty": "medium",
+    "description": "Sets up a timeout and clears it automatically."
+  },
+  {
+    "title": "useInterval",
+    "tags": [
+      "timing",
+      "events"
+    ],
+    "difficulty": "medium",
+    "description": "Sets up an interval timer that can be cleared."
+  },
+  {
+    "title": "useAsync",
+    "tags": [
+      "data-fetching",
+      "async"
+    ],
+    "difficulty": "medium",
+    "description": "Manages asynchronous tasks in React components."
+  },
+  {
+    "title": "useDarkModeToggle",
+    "tags": [
+      "custom-hooks",
+      "theme"
+    ],
+    "difficulty": "medium",
+    "description": "Handles toggling between dark and light mode in the UI."
+  },
+  {
+    "title": "useThrottleFn",
+    "tags": [
+      "performance",
+      "events"
+    ],
+    "difficulty": "medium",
+    "description": "Throttle a function call for efficient performance."
+  },
+  {
+    "title": "useIsMounted",
+    "tags": [
+      "custom-hooks",
+      "performance"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks if a component is currently mounted."
+  },
+  {
+    "title": "useList",
+    "tags": [
+      "state",
+      "array"
+    ],
+    "difficulty": "medium",
+    "description": "Manages a dynamic list (add/remove items)."
+  },
+  {
+    "title": "useForceUpdate",
+    "tags": [
+      "state",
+      "performance"
+    ],
+    "difficulty": "medium",
+    "description": "Forces a component to re-render."
+  },
+  {
+    "title": "useEventListenerOnce",
+    "tags": [
+      "events",
+      "dom"
+    ],
+    "difficulty": "medium",
+    "description": "Sets up an event listener that only fires once."
+  },
+  {
+    "title": "useMousePosition",
+    "tags": [
+      "events",
+      "mouse"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks the mouse position on the page."
+  },
+  {
+    "title": "useAnimationFrame",
+    "tags": [
+      "performance",
+      "timing"
+    ],
+    "difficulty": "medium",
+    "description": "Sets up an animation frame callback to update the UI in sync with the browser."
+  },
+  {
+    "title": "useScriptLoad",
+    "tags": [
+      "scripts",
+      "custom-hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Tracks the loading of external scripts."
+  },
+  {
+    "title": "useMediaQuery",
+    "tags": [
+      "responsive",
+      "hooks"
+    ],
+    "difficulty": "medium",
+    "description": "Evaluates a CSS media query and returns the result."
+  },
+  {
+    "title": "useStateReducer",
+    "tags": [
+      "state",
+      "redux"
+    ],
+    "difficulty": "medium",
+    "description": "A custom hook to create a state reducer for useState."
+  },
+  {
+    "title": "useMouseWheel",
+    "tags": [
+      "events",
+      "mouse"
+    ],
+    "difficulty": "medium",
+    "description": "Detects mouse wheel events and captures their direction."
+  },
+  {
+    "title": "useToggler",
+    "tags": [
+      "state",
+      "boolean"
+    ],
+    "difficulty": "medium",
+    "description": "Toggles a boolean state variable."
+  },
+  {
+    "title": "useTitle",
+    "tags": [
+      "document",
+      "seo"
+    ],
+    "difficulty": "medium",
+    "description": "Sets or updates the document's title dynamically."
+  },
+  {
+    "title": "useDeferredValue",
+    "tags": [
+      "performance",
+      "state",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Delays the update of a state value until the browser is idle, useful for optimizing rendering performance."
+  },
+  {
+    "title": "useTransition",
+    "tags": [
+      "performance",
+      "state",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Allows you to mark some updates as non-urgent, helping to keep the UI responsive by deferring expensive updates."
+  },
+  {
+    "title": "React.memo",
+    "tags": [
+      "performance",
+      "optimization",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Memoizes the component to prevent unnecessary re-renders when its props have not changed."
+  },
+  {
+    "title": "useImperativeHandle",
+    "tags": [
+      "refs",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Customizes the instance value that is exposed when using refs, allowing fine-grained control over what is exposed."
+  },
+  {
+    "title": "Concurrent Mode",
+    "tags": [
+      "react",
+      "advanced",
+      "performance"
+    ],
+    "difficulty": "hard",
+    "description": "A set of new features in React that help apps stay responsive and gracefully adjust to the user’s device capabilities and network speed."
+  },
+  {
+    "title": "Suspense",
+    "tags": [
+      "react",
+      "data-fetching",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "A mechanism for handling asynchronous rendering in React, allowing components to ‘wait’ for something before rendering."
+  },
+  {
+    "title": "Error Boundaries",
+    "tags": [
+      "error-handling",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Catches JavaScript errors anywhere in the component tree and displays a fallback UI instead of crashing the app."
+  },
+  {
+    "title": "useEffect Cleanup Function",
+    "tags": [
+      "side-effects",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Understanding the cleanup function in `useEffect` to avoid memory leaks and unnecessary side-effects."
+  },
+  {
+    "title": "useReducer with useContext",
+    "tags": [
+      "state",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Combines `useReducer` with `useContext` to manage global state in a React app, replacing state management libraries like Redux."
+  },
+  {
+    "title": "Higher-Order Components (HOCs)",
+    "tags": [
+      "advanced",
+      "react"
+    ],
+    "difficulty": "hard",
+    "description": "A function that takes a component and returns a new component with additional props or functionality."
+  },
+  {
+    "title": "useLayoutEffect",
+    "tags": [
+      "side-effects",
+      "performance",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Executes after all DOM mutations but before the browser paints, useful for layout calculations."
+  },
+  {
+    "title": "Code Splitting with React.lazy",
+    "tags": [
+      "performance",
+      "optimization",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Splitting your React code into smaller bundles to load only the necessary code when needed, improving load times."
+  },
+  {
+    "title": "React Fiber Architecture",
+    "tags": [
+      "react",
+      "advanced",
+      "performance"
+    ],
+    "difficulty": "hard",
+    "description": "The internal reimplementation of React’s rendering engine, enabling features like Concurrent Mode and Suspense."
+  },
+  {
+    "title": "React Context Optimization",
+    "tags": [
+      "state",
+      "performance",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Optimizing React Context by reducing unnecessary re-renders and keeping context providers as small as possible."
+  },
+  {
+    "title": "Hooks in Class Components",
+    "tags": [
+      "hooks",
+      "class-components",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Using hooks in class components with the help of third-party libraries or React hooks APIs like `forwardRef`."
+  },
+  {
+    "title": "useCallback with Dependencies",
+    "tags": [
+      "performance",
+      "state",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Understanding the proper usage of `useCallback` and its dependencies array to prevent unnecessary re-creations of functions."
+  },
+  {
+    "title": "React Portals",
+    "tags": [
+      "advanced",
+      "dom",
+      "react"
+    ],
+    "difficulty": "hard",
+    "description": "Render children into a DOM node that exists outside the DOM hierarchy of the parent component."
+  },
+  {
+    "title": "Custom React Hooks Optimization",
+    "tags": [
+      "performance",
+      "custom-hooks",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Optimizing custom hooks to reduce unnecessary re-renders and enhance performance."
+  },
+  {
+    "title": "Context vs Redux for State Management",
+    "tags": [
+      "state",
+      "performance",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "Comparing React Context API with Redux in terms of performance, scalability, and use-cases."
+  },
+  {
+    "title": "React’s Synthetic Event System",
+    "tags": [
+      "events",
+      "advanced"
+    ],
+    "difficulty": "hard",
+    "description": "React’s cross-browser wrapper around the browser's native event system that normalizes events."
+  }
+]
